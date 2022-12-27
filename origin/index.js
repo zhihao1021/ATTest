@@ -18,10 +18,6 @@ function getHashPara(pa){
 	return '';
 }
 
-function  test (inp="") {
-	console.log("Test", inp);
-}
-
 function setCookie(sName,sValue,sExpires){
 	if(sExpires==null || sExpires=="") exps="";
 	else {
@@ -240,9 +236,3 @@ function emp() {
 		"426.749;427.938;456.367;438.253;395.464;377.457;415.495;341.319;371.844;359.435;374.555;409.986;332.14;328.39;404.982;422.398;335.416;360.937;421.798;364.342;381.961;428.947;436.658;481.198;453.179;407.487;486.296;483.195;391.717;464.177;412.783;380.356;398.578;434.556;453.270;422.249;448.374;426.833;362.543;412.335;465.776;419.637;448.267;"
 	)
 }
-
-
-
-('6=6+(2.1(0)+2.1(0)*4.5(0)-3*4.5(0))+\',\';', 7, 7, 'u|charCodeAt|iipw||ipw_key|charAt|eniipw'.split('|'), 0, {})
-// ipw,ipw_key,iTag
-// eniipw=eniipw+(iipw.charCodeAt(u)+iipw.charCodeAt(u)*ipw_key.charAt(u)-3*ipw_key.charAt(u))+',';
